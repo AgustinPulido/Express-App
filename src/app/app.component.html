@@ -1,0 +1,9 @@
+<div style='margin: 30px;'>
+    <input type='button' value="Test" (click)='hacerTest()' style='margin-right: 10px;'>
+    <input type='button' value="Users" (click)='getUsers()'>
+    <div [hidden]="test==''" style="margin-top: 15px;">
+        <label>
+    Mensaje de respuesta: {{test}}
+  </label>
+    </div>
+</div>
